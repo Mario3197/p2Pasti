@@ -1,0 +1,57 @@
+# Design Explorer: Shortcut to "C:\Users\Mario\Desktop\p2Pasti\shifters\shifters.aws" design added.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_machxo2
+designverdefinemacro -clear
+addfile C:/Users/Mario/Desktop/p2Pasti/Shifters.vhd
+# Adding file C:\Users\Mario\Desktop\p2Pasti\Shifters.vhd ... Done
+vlib C:/Users/Mario/Desktop/p2Pasti/shifters/work
+# Adding library O.K.
+adel -all
+# Library contents cleared.
+vcom -dbg -work work C:/Users/Mario/Desktop/p2Pasti/Shifters.vhd
+# File: C:\Users\Mario\Desktop\p2Pasti\Shifters.vhd
+# Compile Entity "Shifters"
+# Compile Architecture "Behavioral" of Entity "Shifters"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+entity Shifters
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r Shifters -PL pmi_work -L ovi_machxo2
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6188 kB (elbread=1280 elab2=4757 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mario\Desktop\p2Pasti\shifters\src\wave.asdb
+#  04:20 p. m., lunes, 6 de mayo de 2019
+#  Simulation has been initialized
+add wave *
+# 7 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mario/Desktop/p2Pasti/shifters/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 1039799 ns
+# KERNEL: stopped at time: 1039999 ns
+# KERNEL: stopped at time: 1040099 ns
+run 100ns
+# KERNEL: stopped at time: 1040199 ns

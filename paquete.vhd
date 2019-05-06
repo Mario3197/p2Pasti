@@ -16,16 +16,16 @@ component OperacionesLogicas is --Programa que ejecuta las operaciones lógicas (
 	port(
 		clk: in std_logic;
 		A,B: in std_logic_vector(9 downto 0);--Entradas de 10 bits
-		selector: in std_logic_vector(2 downto 0);
+		selector: in std_logic_vector(3 downto 0);
 		salida: out std_logic_vector(9 downto 0)
 	);
 end component;
 
 component Shifters is --Programa que ejecuta el LSL y el LSR
 	port(
-		clk: in std_logic;
+		clk,clr: in std_logic;
 		A: in std_logic_vector(9 downto 0);--Entrada de 10 bits
-		selector: in std_logic_vector(2 downto 0);
+		selector: in std_logic_vector(3 downto 0);
 		salida: out std_logic_vector(9 downto 0)
 	);
 end component;

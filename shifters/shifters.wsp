@@ -1,0 +1,13 @@
+[COMPILESTATUS|.\..\Shifters.vhd]
+FileTimeLow=30737489
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\shifters.adf|]
+Path=/Shifters
+
+[Gui config]
+RunFor=100ns
+

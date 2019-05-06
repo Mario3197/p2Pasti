@@ -39,6 +39,9 @@
         <Source name="P1/P1.xcf" type="Programming Project File" type_short="Programming">
             <Options/>
         </Source>
+        <Source name="shifters/shifters.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
     </Implementation>
     <Strategy name="Strategy1" file="P11.sty"/>
 </BaliProject>

@@ -1,0 +1,1 @@
+-w -erf C:/Users/Mario/Desktop/p2Pasti/shifters/compile/shifters.erf -d C:/Users/Mario/Desktop/p2Pasti/shifters/compile -s C:/Users/Mario/Desktop/p2Pasti/shifters/library.cfg -j C:/Users/Mario/Desktop/p2Pasti/shifters/projlib.cfg -work work -dbg -work work C:/Users/Mario/Desktop/p2Pasti/Shifters.vhd 
