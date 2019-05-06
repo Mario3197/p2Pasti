@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>51001030</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>clr_c</Dynamic>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>clk_c</Dynamic>
+            <Dynamic>Primary</Dynamic>
+            <Dynamic>clk</Dynamic>
+            <Dynamic>125</Dynamic>
+            <Dynamic>Primary</Dynamic>
+        </Message>
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>selector_c[2]</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+            <Dynamic>selector[2]</Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+        </Message>
+        <Message>
+            <ID>62061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>clk_c</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN287 :&quot;a:\documentos\aruitectura pasti\practica 1\controldisplays.vhd&quot;:36:14:36:15|Register auxCatodo[3:0] with reset has an initial value of 1. Ignoring initial value.</Dynamic>
+            <Navigation>BN287</Navigation>
+            <Navigation>a:\documentos\aruitectura pasti\practica 1\controldisplays.vhd</Navigation>
+            <Navigation>36</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>36</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Register auxCatodo[3:0] with reset has an initial value of 1. Ignoring initial value.  </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;a:\documentos\aruitectura pasti\practica 1\controldisplays.vhd&quot;:22:9:22:10|Found inferred clock controlDisplays|clk which controls 16 sequential elements including clk_aux. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>a:\documentos\aruitectura pasti\practica 1\controldisplays.vhd</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Found inferred clock controlDisplays|clk which controls 16 sequential elements including clk_aux. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;a:\documentos\aruitectura pasti\practica 1\controldisplays.vhd&quot;:54:8:54:9|ROM salidaDisplay_1[6:0] (in view: work.controlDisplays(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>a:\documentos\aruitectura pasti\practica 1\controldisplays.vhd</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>ROM salidaDisplay_1[6:0] (in view: work.controlDisplays(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;a:\documentos\aruitectura pasti\practica 1\controldisplays.vhd&quot;:54:8:54:9|ROM salidaDisplay_1[6:0] (in view: work.controlDisplays(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>a:\documentos\aruitectura pasti\practica 1\controldisplays.vhd</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>ROM salidaDisplay_1[6:0] (in view: work.controlDisplays(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock controlDisplays|clk with period 1000.00ns. Please declare a user-defined clock on object &quot;p:clk&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock controlDisplays|clk with period 1000.00ns. Please declare a user-defined clock on object &quot;p:clk&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

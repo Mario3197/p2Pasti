@@ -1,0 +1,1 @@
+-w -erf "A:/Documentos/Aruitectura Pasti/BCD10BitsSim/compile/BCD10BitsSim.erf" -d "A:/Documentos/Aruitectura Pasti/BCD10BitsSim/compile" -s "A:/Documentos/Aruitectura Pasti/BCD10BitsSim/library.cfg" -j "A:/Documentos/Aruitectura Pasti/BCD10BitsSim/projlib.cfg" -work work -dbg -work work "A:/Documentos/Aruitectura Pasti/Main.vhd" 

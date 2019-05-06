@@ -1,0 +1,403 @@
+<HTML>
+<HEAD><TITLE>Lattice TRACE Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Par_Twr"></A><B><U><big>Place & Route TRACE Report</big></U></B>
+
+Loading design for application trce from file p1_p1.ncd.
+Design name: OperacionesLogicas
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Loading device for application trce from file 'xo2c7000.nph' in environment: A:/Archivos de programa/lscc/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+<A name="Par_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.10.3.144</big></U></B>
+Sun Apr 14 03:36:52 2019
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="ptwr_set_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 5 -sphld m -o P1_P1.twr -gui -msgset A:/Documentos/Aruitectura Pasti/promote.xml P1_P1.ncd P1_P1.prf 
+Design file:     p1_p1.ncd
+Preference file: p1_p1.prf
+Device,speed:    LCMXO2-7000HE,5
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+<A name="ptwr_set_ps"></A><B><U><big>Preference Summary</big></U></B>
+
+<LI><A href='#par_twr_pref_0_0' Target='right'>Default path enumeration(0 errors)</A></LI>            271 items scored, 0 timing errors detected.
+Report:   92.123MHz is the maximum frequency for this preference.
+
+<LI><A href='#par_twr_pref_0_1' Target='right'>Default net enumeration(0 errors)</A></LI>            61 items scored, 0 timing errors detected.
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+<A name="par_twr_pref_0_0"></A>Preference: Default path enumeration
+            271 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:   10.855ns delay B[4] to salida[9]_MGIOL (10.718ns delay and 0.137ns setup)
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372        133.PAD to      133.PADDI B[4]
+ROUTE         1     3.683      133.PADDI to      R17C3D.C1 B_c[4]
+CTOF_DEL    ---     0.452      R17C3D.C1 to      R17C3D.F1 SLICE_10
+ROUTE         1     1.223      R17C3D.F1 to      R19C3C.A1 salida_6_axb_4
+C1TOFCO_DE  ---     0.786      R19C3C.A1 to     R19C3C.FCO SLICE_4
+ROUTE         1     0.000     R19C3C.FCO to     R19C3D.FCI salida_6_cry_4
+FCITOFCO_D  ---     0.146     R19C3D.FCI to     R19C3D.FCO SLICE_3
+ROUTE         1     0.000     R19C3D.FCO to     R19C4A.FCI salida_6_cry_6
+FCITOFCO_D  ---     0.146     R19C4A.FCI to     R19C4A.FCO SLICE_2
+ROUTE         1     0.000     R19C4A.FCO to     R19C4B.FCI salida_6_cry_8
+FCITOF0_DE  ---     0.517     R19C4B.FCI to      R19C4B.F0 SLICE_1
+ROUTE         1     2.393      R19C4B.F0 to  IOL_B16B.OPOS salida_6[9] (to clk_c)
+                  --------
+                   10.718   (31.9% logic, 68.1% route), 6 logic levels.
+
+Report:   10.761ns delay B[4] to salida[8]_MGIOL (10.624ns delay and 0.137ns setup)
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372        133.PAD to      133.PADDI B[4]
+ROUTE         1     3.683      133.PADDI to      R17C3D.C1 B_c[4]
+CTOF_DEL    ---     0.452      R17C3D.C1 to      R17C3D.F1 SLICE_10
+ROUTE         1     1.223      R17C3D.F1 to      R19C3C.A1 salida_6_axb_4
+C1TOFCO_DE  ---     0.786      R19C3C.A1 to     R19C3C.FCO SLICE_4
+ROUTE         1     0.000     R19C3C.FCO to     R19C3D.FCI salida_6_cry_4
+FCITOFCO_D  ---     0.146     R19C3D.FCI to     R19C3D.FCO SLICE_3
+ROUTE         1     0.000     R19C3D.FCO to     R19C4A.FCI salida_6_cry_6
+FCITOF1_DE  ---     0.569     R19C4A.FCI to      R19C4A.F1 SLICE_2
+ROUTE         1     2.393      R19C4A.F1 to  IOL_B13B.OPOS salida_6[8] (to clk_c)
+                  --------
+                   10.624   (31.3% logic, 68.7% route), 5 logic levels.
+
+Report:   10.701ns delay B[4] to salida[7]_MGIOL (10.564ns delay and 0.137ns setup)
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372        133.PAD to      133.PADDI B[4]
+ROUTE         1     3.683      133.PADDI to      R17C3D.C1 B_c[4]
+CTOF_DEL    ---     0.452      R17C3D.C1 to      R17C3D.F1 SLICE_10
+ROUTE         1     1.223      R17C3D.F1 to      R19C3C.A1 salida_6_axb_4
+C1TOFCO_DE  ---     0.786      R19C3C.A1 to     R19C3C.FCO SLICE_4
+ROUTE         1     0.000     R19C3C.FCO to     R19C3D.FCI salida_6_cry_4
+FCITOFCO_D  ---     0.146     R19C3D.FCI to     R19C3D.FCO SLICE_3
+ROUTE         1     0.000     R19C3D.FCO to     R19C4A.FCI salida_6_cry_6
+FCITOF0_DE  ---     0.517     R19C4A.FCI to      R19C4A.F0 SLICE_2
+ROUTE         1     2.385      R19C4A.F0 to  IOL_B16A.OPOS salida_6[7] (to clk_c)
+                  --------
+                   10.564   (31.0% logic, 69.0% route), 5 logic levels.
+
+Report:   10.671ns delay B[5] to salida[9]_MGIOL (10.534ns delay and 0.137ns setup)
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372        132.PAD to      132.PADDI B[5]
+ROUTE         1     3.845      132.PADDI to      R17C3C.A1 B_c[5]
+CTOF_DEL    ---     0.452      R17C3C.A1 to      R17C3C.F1 SLICE_9
+ROUTE         1     0.904      R17C3C.F1 to      R19C3D.B0 salida_6_axb_5
+C0TOFCO_DE  ---     0.905      R19C3D.B0 to     R19C3D.FCO SLICE_3
+ROUTE         1     0.000     R19C3D.FCO to     R19C4A.FCI salida_6_cry_6
+FCITOFCO_D  ---     0.146     R19C4A.FCI to     R19C4A.FCO SLICE_2
+ROUTE         1     0.000     R19C4A.FCO to     R19C4B.FCI salida_6_cry_8
+FCITOF0_DE  ---     0.517     R19C4B.FCI to      R19C4B.F0 SLICE_1
+ROUTE         1     2.393      R19C4B.F0 to  IOL_B16B.OPOS salida_6[9] (to clk_c)
+                  --------
+                   10.534   (32.2% logic, 67.8% route), 5 logic levels.
+
+Report:   10.644ns delay B[4] to salida[6]_MGIOL (10.507ns delay and 0.137ns setup)
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372        133.PAD to      133.PADDI B[4]
+ROUTE         1     3.683      133.PADDI to      R17C3D.C1 B_c[4]
+CTOF_DEL    ---     0.452      R17C3D.C1 to      R17C3D.F1 SLICE_10
+ROUTE         1     1.223      R17C3D.F1 to      R19C3C.A1 salida_6_axb_4
+C1TOFCO_DE  ---     0.786      R19C3C.A1 to     R19C3C.FCO SLICE_4
+ROUTE         1     0.000     R19C3C.FCO to     R19C3D.FCI salida_6_cry_4
+FCITOF1_DE  ---     0.569     R19C3D.FCI to      R19C3D.F1 SLICE_3
+ROUTE         1     2.422      R19C3D.F1 to  IOL_B13A.OPOS salida_6[6] (to clk_c)
+                  --------
+                   10.507   (30.3% logic, 69.7% route), 4 logic levels.
+
+Report:   10.591ns delay selector[0] to salida[9]_MGIOL (10.454ns delay and 0.137ns setup)
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372         34.PAD to       34.PADDI selector[0]
+ROUTE        11     3.154       34.PADDI to      R19C2A.A0 selector_c[0]
+CTOF_DEL    ---     0.452      R19C2A.A0 to      R19C2A.F0 SLICE_8
+ROUTE         1     1.223      R19C2A.F0 to      R19C3B.A0 salida_6_axb_1
+C0TOFCO_DE  ---     0.905      R19C3B.A0 to     R19C3B.FCO SLICE_5
+ROUTE         1     0.000     R19C3B.FCO to     R19C3C.FCI salida_6_cry_2
+FCITOFCO_D  ---     0.146     R19C3C.FCI to     R19C3C.FCO SLICE_4
+ROUTE         1     0.000     R19C3C.FCO to     R19C3D.FCI salida_6_cry_4
+FCITOFCO_D  ---     0.146     R19C3D.FCI to     R19C3D.FCO SLICE_3
+ROUTE         1     0.000     R19C3D.FCO to     R19C4A.FCI salida_6_cry_6
+FCITOFCO_D  ---     0.146     R19C4A.FCI to     R19C4A.FCO SLICE_2
+ROUTE         1     0.000     R19C4A.FCO to     R19C4B.FCI salida_6_cry_8
+FCITOF0_DE  ---     0.517     R19C4B.FCI to      R19C4B.F0 SLICE_1
+ROUTE         1     2.393      R19C4B.F0 to  IOL_B16B.OPOS salida_6[9] (to clk_c)
+                  --------
+                   10.454   (35.2% logic, 64.8% route), 7 logic levels.
+
+Report:   10.577ns delay B[5] to salida[8]_MGIOL (10.440ns delay and 0.137ns setup)
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372        132.PAD to      132.PADDI B[5]
+ROUTE         1     3.845      132.PADDI to      R17C3C.A1 B_c[5]
+CTOF_DEL    ---     0.452      R17C3C.A1 to      R17C3C.F1 SLICE_9
+ROUTE         1     0.904      R17C3C.F1 to      R19C3D.B0 salida_6_axb_5
+C0TOFCO_DE  ---     0.905      R19C3D.B0 to     R19C3D.FCO SLICE_3
+ROUTE         1     0.000     R19C3D.FCO to     R19C4A.FCI salida_6_cry_6
+FCITOF1_DE  ---     0.569     R19C4A.FCI to      R19C4A.F1 SLICE_2
+ROUTE         1     2.393      R19C4A.F1 to  IOL_B13B.OPOS salida_6[8] (to clk_c)
+                  --------
+                   10.440   (31.6% logic, 68.4% route), 4 logic levels.
+
+Report:   10.517ns delay B[5] to salida[7]_MGIOL (10.380ns delay and 0.137ns setup)
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372        132.PAD to      132.PADDI B[5]
+ROUTE         1     3.845      132.PADDI to      R17C3C.A1 B_c[5]
+CTOF_DEL    ---     0.452      R17C3C.A1 to      R17C3C.F1 SLICE_9
+ROUTE         1     0.904      R17C3C.F1 to      R19C3D.B0 salida_6_axb_5
+C0TOFCO_DE  ---     0.905      R19C3D.B0 to     R19C3D.FCO SLICE_3
+ROUTE         1     0.000     R19C3D.FCO to     R19C4A.FCI salida_6_cry_6
+FCITOF0_DE  ---     0.517     R19C4A.FCI to      R19C4A.F0 SLICE_2
+ROUTE         1     2.385      R19C4A.F0 to  IOL_B16A.OPOS salida_6[7] (to clk_c)
+                  --------
+                   10.380   (31.3% logic, 68.7% route), 4 logic levels.
+
+Report:   10.497ns delay selector[0] to salida[8]_MGIOL (10.360ns delay and 0.137ns setup)
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372         34.PAD to       34.PADDI selector[0]
+ROUTE        11     3.154       34.PADDI to      R19C2A.A0 selector_c[0]
+CTOF_DEL    ---     0.452      R19C2A.A0 to      R19C2A.F0 SLICE_8
+ROUTE         1     1.223      R19C2A.F0 to      R19C3B.A0 salida_6_axb_1
+C0TOFCO_DE  ---     0.905      R19C3B.A0 to     R19C3B.FCO SLICE_5
+ROUTE         1     0.000     R19C3B.FCO to     R19C3C.FCI salida_6_cry_2
+FCITOFCO_D  ---     0.146     R19C3C.FCI to     R19C3C.FCO SLICE_4
+ROUTE         1     0.000     R19C3C.FCO to     R19C3D.FCI salida_6_cry_4
+FCITOFCO_D  ---     0.146     R19C3D.FCI to     R19C3D.FCO SLICE_3
+ROUTE         1     0.000     R19C3D.FCO to     R19C4A.FCI salida_6_cry_6
+FCITOF1_DE  ---     0.569     R19C4A.FCI to      R19C4A.F1 SLICE_2
+ROUTE         1     2.393      R19C4A.F1 to  IOL_B13B.OPOS salida_6[8] (to clk_c)
+                  --------
+                   10.360   (34.7% logic, 65.3% route), 6 logic levels.
+
+Report:   10.437ns delay selector[0] to salida[7]_MGIOL (10.300ns delay and 0.137ns setup)
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372         34.PAD to       34.PADDI selector[0]
+ROUTE        11     3.154       34.PADDI to      R19C2A.A0 selector_c[0]
+CTOF_DEL    ---     0.452      R19C2A.A0 to      R19C2A.F0 SLICE_8
+ROUTE         1     1.223      R19C2A.F0 to      R19C3B.A0 salida_6_axb_1
+C0TOFCO_DE  ---     0.905      R19C3B.A0 to     R19C3B.FCO SLICE_5
+ROUTE         1     0.000     R19C3B.FCO to     R19C3C.FCI salida_6_cry_2
+FCITOFCO_D  ---     0.146     R19C3C.FCI to     R19C3C.FCO SLICE_4
+ROUTE         1     0.000     R19C3C.FCO to     R19C3D.FCI salida_6_cry_4
+FCITOFCO_D  ---     0.146     R19C3D.FCI to     R19C3D.FCO SLICE_3
+ROUTE         1     0.000     R19C3D.FCO to     R19C4A.FCI salida_6_cry_6
+FCITOF0_DE  ---     0.517     R19C4A.FCI to      R19C4A.F0 SLICE_2
+ROUTE         1     2.385      R19C4A.F0 to  IOL_B16A.OPOS salida_6[7] (to clk_c)
+                  --------
+                   10.300   (34.3% logic, 65.7% route), 6 logic levels.
+
+Report:   92.123MHz is the maximum frequency for this preference.
+
+
+================================================================================
+<A name="par_twr_pref_0_1"></A>Preference: Default net enumeration
+            61 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:    4.101ns maximum delay on selector_c[2]
+
+           Delays             Connection(s)
+           4.101ns         32.PADDI to IOL_B4B.CE      
+           4.101ns         32.PADDI to IOL_B12A.CE     
+           4.101ns         32.PADDI to IOL_B9A.CE      
+           4.101ns         32.PADDI to IOL_B9B.CE      
+           4.101ns         32.PADDI to IOL_B12B.CE     
+           4.101ns         32.PADDI to IOL_B13A.CE     
+           4.101ns         32.PADDI to IOL_B16A.CE     
+           4.101ns         32.PADDI to IOL_B13B.CE     
+           4.101ns         32.PADDI to IOL_B16B.CE     
+           4.101ns         32.PADDI to IOL_B6B.CE      
+
+Report:    3.845ns maximum delay on B_c[5]
+
+           Delays             Connection(s)
+           3.845ns        132.PADDI to R17C3C.A1       
+
+Report:    3.683ns maximum delay on B_c[4]
+
+           Delays             Connection(s)
+           3.683ns        133.PADDI to R17C3D.C1       
+
+Report:    3.636ns maximum delay on clr_c
+
+           Delays             Connection(s)
+           3.636ns        111.PADDI to GSR.GSR         
+
+Report:    3.536ns maximum delay on clk_c
+
+           Delays             Connection(s)
+           3.536ns        125.PADDI to IOL_B4B.CLK     
+           3.536ns        125.PADDI to IOL_B12A.CLK    
+           3.536ns        125.PADDI to IOL_B9A.CLK     
+           3.536ns        125.PADDI to IOL_B9B.CLK     
+           3.536ns        125.PADDI to IOL_B12B.CLK    
+           3.536ns        125.PADDI to IOL_B13A.CLK    
+           3.536ns        125.PADDI to IOL_B16A.CLK    
+           3.536ns        125.PADDI to IOL_B13B.CLK    
+           3.536ns        125.PADDI to IOL_B16B.CLK    
+           3.536ns        125.PADDI to IOL_B6B.CLK     
+
+Report:    3.309ns maximum delay on A_c[9]
+
+           Delays             Connection(s)
+           3.309ns          1.PADDI to R18C3D.D0       
+           3.240ns          1.PADDI to R19C4B.A0       
+
+Report:    3.195ns maximum delay on selector_c[0]
+
+           Delays             Connection(s)
+           3.195ns         34.PADDI to R18C3D.B0       
+           2.504ns         34.PADDI to R17C3D.D1       
+           2.504ns         34.PADDI to R17C3D.D0       
+           2.969ns         34.PADDI to R17C3C.C1       
+           2.814ns         34.PADDI to R17C3C.A0       
+           2.859ns         34.PADDI to R19C2A.D1       
+           3.154ns         34.PADDI to R19C2A.A0       
+           2.821ns         34.PADDI to R19C2B.B1       
+           3.154ns         34.PADDI to R19C2B.A0       
+           2.814ns         34.PADDI to R18C3C.A1       
+           2.814ns         34.PADDI to R18C3C.A0       
+
+Report:    2.854ns maximum delay on A_c[4]
+
+           Delays             Connection(s)
+           2.854ns          6.PADDI to R17C3D.A1       
+
+Report:    2.836ns maximum delay on A_c[0]
+
+           Delays             Connection(s)
+           2.836ns         12.PADDI to R19C2B.B0       
+
+Report:    2.791ns maximum delay on A_c[3]
+
+           Delays             Connection(s)
+           2.791ns          9.PADDI to R17C3D.A0       
+
+Report:    4.101ns is the maximum delay for this preference.
+
+<A name="ptwr_set_rs"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+Default path enumeration                |    0.000 MHz|   92.123 MHz|   0  
+                                        |             |             |
+Default net enumeration                 |     0.000 ns|     4.101 ns|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="ptwr_set_clkda"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 1 clocks:
+
+Clock Domain: clk_c   Source: clk.PAD   Loads: 10
+   No transfer within this clock domain is found
+
+
+<A name="ptwr_set_ts"></A><B><U><big>Timing summary (Setup):</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 271 paths, 61 nets, and 100 connections (100.00% coverage)
+
+--------------------------------------------------------------------------------
+
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,1 @@
+-w -erf "A:/Documentos/Aruitectura Pasti/shifterSim/compile/shifterSim.erf" -d "A:/Documentos/Aruitectura Pasti/shifterSim/compile" -s "A:/Documentos/Aruitectura Pasti/shifterSim/library.cfg" -j "A:/Documentos/Aruitectura Pasti/shifterSim/projlib.cfg" -work work -dbg -work work "A:/Documentos/Aruitectura Pasti/Shifters.vhd" 

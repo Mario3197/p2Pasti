@@ -1,0 +1,4 @@
+MESSAGE "File: A:\Documentos\Aruitectura Pasti\Practica 1\BCD10Bits.vhd" 
+MESSAGE "Compile Entity "BCD10Bits"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "BCD10Bits"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]" 

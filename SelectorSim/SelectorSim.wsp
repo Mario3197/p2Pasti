@@ -1,0 +1,29 @@
+[COMPILESTATUS|.\..\paquete.vhd]
+FileTimeLow=30733067
+Status=Compiled
+
+[COMPILESTATUS|.\..\OperacionesLogicas.vhd]
+FileTimeLow=30733069
+Status=Compiled
+
+[COMPILESTATUS|.\..\Shifters.vhd]
+FileTimeLow=30733069
+Status=Compiled
+
+[COMPILESTATUS|.\..\Selector.vhd]
+FileTimeLow=30733125
+Status=Compiled
+
+[COMPILESTATUS|.\..\Main.vhd]
+FileTimeLow=30733067
+Status=Warning
+
+[Gui config]
+RunFor=10 ns
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\SelectorSim.adf|]
+Path=/Selector
+

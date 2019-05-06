@@ -1,0 +1,59 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+controlDisplaysSim=.\controlDisplaysSim\controlDisplaysSim.lib
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_machxo2
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+controldisplayssim=.
+work=.
+[LocalVerilogDirs]
+Count=0
+[DefineMacro]
+Global=
+[Files]
+/..\..\controlDisplays.vhd=-1
+/..\..\OperacionesLogicas.vhd=-1
+/..\..\paquete.vhd=-1
+/..\..\Shifters.vhd=-1
+/..\..\Main.vhd=-1
+/..\..\Selector.vhd=-1
+/..\..\OperacionesAritmeticas.vhd=-1
+/..\..\BCD10Bits.vhd=-1
+[Files.Data]
+.\..\controlDisplays.vhd=VHDL Source Code
+.\..\OperacionesLogicas.vhd=VHDL Source Code
+.\..\paquete.vhd=VHDL Source Code
+.\..\Shifters.vhd=VHDL Source Code
+.\..\Main.vhd=VHDL Source Code
+.\..\Selector.vhd=VHDL Source Code
+.\..\OperacionesAritmeticas.vhd=VHDL Source Code
+.\..\BCD10Bits.vhd=VHDL Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=controldisplays|Behavioral|0 selector|Behavioral|0 
+ShowHide=ShowTopLevel
+Selected=

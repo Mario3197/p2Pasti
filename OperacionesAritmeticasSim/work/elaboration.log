@@ -1,0 +1,35 @@
+Active-HDL 10.3.3558.6081  2019-04-15 01:01:30
+
+Elaboration top modules:
+Architecture                  Behavioral(OperacionesAritmeticas)
+
+
+---------------------------------------------------------------------------------------------------------
+Entity                 | Architecture | Library | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------------------
+OperacionesAritmeticas | Behavioral   | work    |      | 10.3.3558.6081  (Windows) | -dbg
+---------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------
+VHDL Package                          | Library | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------------------
+standard                              | std     |      |                           | <unavailable>
+TEXTIO                                | std     |      | 10.3.3558.6081  (Windows) |  -2008
+std_logic_1164                        | ieee    |      | 10.3.3558.6081  (Windows) |  -2008
+std_logic_arith                       | ieee    |      | 10.3.3558.6081  (Windows) | <unavailable>
+STD_LOGIC_UNSIGNED                    | ieee    |      | 10.3.3558.6081  (Windows) | <unavailable>
+---------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------
+Library                               | Comment
+---------------------------------------------------------------------------------------------------------
+ieee                                  | Standard IEEE packages library
+std                                   | Standard VHDL library
+work                                  | None
+---------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: vsim +access +r OperacionesAritmeticas -PL pmi_work -L ovi_machxo2
+
+
+The performance of simulation is reduced. Version Lattice Edition

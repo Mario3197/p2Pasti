@@ -1,0 +1,1 @@
+-w -erf "A:/Documentos/Aruitectura Pasti/simulacion/compile/simulacion.erf" -d "A:/Documentos/Aruitectura Pasti/simulacion/compile" -s "A:/Documentos/Aruitectura Pasti/simulacion/library.cfg" -j "A:/Documentos/Aruitectura Pasti/simulacion/projlib.cfg" -work work -dbg -work work "A:/Documentos/Aruitectura Pasti/OperacionesLogicas.vhd" 

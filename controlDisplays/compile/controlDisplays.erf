@@ -1,0 +1,4 @@
+MESSAGE "File: A:\Documentos\Aruitectura Pasti\Practica 1\controlDisplays.vhd" 
+MESSAGE "Compile Entity "controlDisplays"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "controlDisplays"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]" 

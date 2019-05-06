@@ -1,0 +1,106 @@
+timestamp=1557035985634
+
+[~A]
+ModifyID=8
+Version=74
+
+[bcd10bits]
+A/behavioral=A/Behavioral 21|./../../BCD10Bits.vhd|12|1*11086
+BinI32/behavioral=3*5128
+I=0*14593
+I/behavioral=I/Behavioral 0*15493
+M=11|0|vd0|1557035985588|./../../BCD10Bits.vhd|0*14208*0x965b692683ba773fbaacd9da9c3c5921d5fefe82|0*14509*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|0|vd0|1557035985590|./../../BCD10Bits.vhd|0*14877*0xc38089144f7159ce5ffb33505aaadbd74182dc10|0*15395*0x9065d32a2e40e13794b29a2731812845
+R=./../../BCD10Bits.vhd|5
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|94205fe9ce1b964b1f97c4c9ae0bad9beaf89741c3b6b251b35a39410342546e82596f48344cf4661b356ae6e72cf3fa
+Version/behavioral=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff47fa8e3b2729d695064c03edbb87c0cae
+
+[controldisplays]
+A/behavioral=A/Behavioral 21|./../../controlDisplays.vhd|14|1*0
+BinI32/behavioral=3*0
+I=0*745
+I/behavioral=I/Behavioral 0*2746
+M=11|0|vd0|1557035984012|./../../controlDisplays.vhd|0*253*0x405d7088e8ad985325825e2bc85be75897e8b559|0*649*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|0|vd0|1557035984014|./../../controlDisplays.vhd|0*1035*0xbd03f68c3a67ee0f7295104a7bdfb5d5c0c60260|0*2636*0x9065d32a2e40e13794b29a2731812845
+R=./../../controlDisplays.vhd|5
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|3b72e542526d89213928936328ac701e208caf717f60cbc406357fa401483fa8f04b0fc8ab7beeffb3049d640efbf131
+Version/behavioral=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4c20019cd59f26fde78027a9632aef4df
+
+[operacionesaritmeticas]
+A/behavioral=A/Behavioral 21|./../../OperacionesAritmeticas.vhd|14|1*9941
+BinI32/behavioral=3*4214
+I=0*12841
+I/behavioral=I/Behavioral 0*13676
+M=11|0|vd0|1557035985365|./../../OperacionesAritmeticas.vhd|0*12342*0x7514be9e534169c4e18de3133a0f0a3f4387df55|0*12731*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|0|vd0|1557035985367|./../../OperacionesAritmeticas.vhd|0*13138*0x8ca956e81fb8c7a8cbd1f6d17d49dd800a04f304|0*13552*0x9065d32a2e40e13794b29a2731812845
+R=./../../OperacionesAritmeticas.vhd|5
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|9f479fd7b3f66d186be2dba603d1b4655f469610826d4e290dcbf1f56e064e79bd988aeda37263ef6b01b708a4fd59b7
+Version/behavioral=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff40803a07e624456560c74ab423ac5f71d
+
+[operacioneslogicas]
+A/behavioral=A/Behavioral 21|./../../OperacionesLogicas.vhd|14|1*2124
+BinI32/behavioral=3*1853
+I=0*3760
+I/behavioral=I/Behavioral 0*4597
+M=11|0|vd0|1557035984264|./../../OperacionesLogicas.vhd|0*3285*0x53d7551db36aa1d200d9cb87bd84dbfe3e131561|0*3658*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|0|vd0|1557035984266|./../../OperacionesLogicas.vhd|0*4053*0x5effdaf495b32b126c74b712acb931cd6da404f2|0*4481*0x9065d32a2e40e13794b29a2731812845
+R=./../../OperacionesLogicas.vhd|5
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|e2df1698ef0cec1d7b740fd92e03fe34421cda879894a9ac5530dd8aceb80ab4d3f1b28d60966518cb8011133a87f8eb
+Version/behavioral=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff413e79d7a87be17fa5f34672c70a546c0
+
+[paquete]
+E=1*3175
+I=0*6437
+I/paquete=0*6850
+M=3|0|vd0|1557035984484|./../../paquete.vhd|0*5251*0x8a2c3334807a4928043c0c23e96c1af2e06eedcc|0*6357*0x23b75c12e3e89f2ef000564498faa8c2
+M/paquete=4|0|vd0|1557035984487|./../../paquete.vhd|0*6636*0x5a93dfce0f0e4a9c4b5f291cb5b74456cacafc2c|0*6760*0x9065d32a2e40e13794b29a2731812845
+R=./../../paquete.vhd|4
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|97e228c571ae2a2cc4916d31f6c8b94c26527262ddaa47cb266f3a3c4d9b973a9a13917e676ee3433e4ca8c15c80b402
+Version/paquete=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|97e228c571ae2a2cc4916d31f6c8b94c26527262ddaa47cb266f3a3c4d9b973a9a13917e676ee3433e4ca8c15c80b402
+
+[principal]
+A/behavioral=A/Behavioral 21|./../../Main.vhd|17|1*5707
+I=0*9507
+I/behavioral=I/Behavioral 0*10299
+M=11|0|vd0|1557035984928|./../../Main.vhd|0*9006*0x2e890d49f95bce7c8abd27f3190d3c658e2b02f7|0*9428*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|0|vd0|1557035984930|./../../Main.vhd|0*9821*0x19cec7dc02712a5ef881868a5c6d2efc8ef3794a|0*10206*0x9065d32a2e40e13794b29a2731812845
+R=./../../Main.vhd|6
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|853334e0e7faf2463879dc3b3e062cbe67fd4c78e6b5277c917925d777dc5793cca6446fe890a3de480ce95272502f04
+Version/behavioral=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4b76ceed709a63550813953231ee49e48
+
+[selector]
+A/behavioral=A/Behavioral 21|./../../Selector.vhd|13|1*8796
+BinI32/behavioral=3*3543
+I=0*11005
+I/behavioral=I/Behavioral 0*11798
+M=11|0|vd0|1557035985155|./../../Selector.vhd|0*10637*0x296a7bb488a4283a31db63f447d6838e672ddb38|0*10923*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|0|vd0|1557035985157|./../../Selector.vhd|0*11288*0xd2038c0a4007ead0aeffba64c421d963fffad322|0*11702*0x9065d32a2e40e13794b29a2731812845
+R=./../../Selector.vhd|5
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b86f9e88cc6bc7fd2220bff618bfdf1f6690495b6afe9e9f4ff25615aba759db8658e78f9e43eb83b6ac2b8a7d9bb9df
+Version/behavioral=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4b9d46e257d214870d335cb748bdc2125
+
+[shifters]
+A/behavioral=A/Behavioral 21|./../../Shifters.vhd|14|1*4615
+BinI32/behavioral=3*2879
+I=0*7684
+I/behavioral=I/Behavioral 0*8466
+M=11|0|vd0|1557035984708|./../../Shifters.vhd|0*7273*0x39e5830704e065202c45e665354510585e5bc815|0*7602*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|0|vd0|1557035984710|./../../Shifters.vhd|0*7967*0x6f1650b506d39a8dc3b2a85c4cf67f3a49368997|0*8370*0x9065d32a2e40e13794b29a2731812845
+R=./../../Shifters.vhd|5
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|bb336944b5f272381f2e643e55af8c17e55e66d01b071ebe901f39dda14a0486dc980cd2ef28f95fda626ceb6438adfa
+Version/behavioral=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4390414c71f6e4f014cb4b44a534f7bad
+
+[~MFT]
+0=7|0work.mgf|15493|0
+1=1|1work.mgf|11086|0
+3=1|3work.mgf|5128|0
+
+[~U]
+bcd10bits=BCD10Bits 11|0*13984|
+controldisplays=controlDisplays 11|0*0|
+operacionesaritmeticas=OperacionesAritmeticas 11|0*12092|
+operacioneslogicas=OperacionesLogicas 11|0*3047|
+paquete=3|0*4901|0*5021
+principal=Principal 11|0*8760|
+selector=Selector 11|0*10427|
+shifters=Shifters 11|0*7057|

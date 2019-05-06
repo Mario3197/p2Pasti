@@ -1,0 +1,8 @@
+.\..\controlDisplays.vhd
+.\..\OperacionesLogicas.vhd
+.\..\paquete.vhd
+.\..\Shifters.vhd
+.\..\Main.vhd
+.\..\Selector.vhd
+.\..\OperacionesAritmeticas.vhd
+.\..\BCD10Bits.vhd

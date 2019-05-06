@@ -1,0 +1,1 @@
+A:/Archivos de programa/lscc/diamond/3.10_x64/bin/nt64/moduleparser.exe -PROJ shifterSim -pf A:/Archivos de programa/lscc/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd -lib machxo2 -pkg A:/Archivos de programa/lscc/diamond/3.10_x64/cae_library/vhdl_packages/vdbs -lst A:/Documentos/Aruitectura Pasti/shifterSim/source_files.lst

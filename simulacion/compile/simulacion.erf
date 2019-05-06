@@ -1,0 +1,4 @@
+MESSAGE "File: A:\Documentos\Aruitectura Pasti\OperacionesLogicas.vhd" 
+MESSAGE "Compile Entity "OperacionesLogicas"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "OperacionesLogicas"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]" 

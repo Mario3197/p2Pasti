@@ -1,0 +1,35 @@
+timestamp=1555228377688
+
+[~A]
+ModifyID=2
+Version=74
+
+[operacioneslogicas]
+A/behavioral=A/Behavioral 21|./../../OperacionesLogicas.vhd|15|1*756
+BinI32/behavioral=3*0
+I=0*2077
+I/behavioral=I/Behavioral 0*2942
+M=11|0|vd0|1555228377625|./../../OperacionesLogicas.vhd|0*1596*0xc5a2db1f416047eee89aa6856adb64dc3409772d|0*1975*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|0|vd0|1555228377627|./../../OperacionesLogicas.vhd|0*2370*0x804e1170385540954c9f5bed4bfd45e18d6fc04f|0*2826*0x9065d32a2e40e13794b29a2731812845
+R=./../../OperacionesLogicas.vhd|6
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|e2df1698ef0cec1d7b740fd92e03fe34421cda879894a9ac5530dd8aceb80ab4e5573e8d7502c36010a8238f1b23d0a3
+Version/behavioral=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff456aedc3609dea0eb9771b96f0eff86a5
+
+[paquete]
+E=1*0
+I=0*735
+I/paquete=0*1148
+M=3|0|vd0|1555228377368|./../../paquete.vhd|0*282*0x4a3b07afdd5eee766907972c212f786ae40e2db5|0*655*0x23b75c12e3e89f2ef000564498faa8c2
+M/paquete=4|0|vd0|1555228377371|./../../paquete.vhd|0*934*0xcfee8f9e0d3c09770eb7bfdda0a879dedbe841d2|0*1058*0x9065d32a2e40e13794b29a2731812845
+R=./../../paquete.vhd|4
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|97e228c571ae2a2cc4916d31f6c8b94c26527262ddaa47cb266f3a3c4d9b973aba673ebd88605c7519e3a9635f8a97fb
+Version/paquete=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|97e228c571ae2a2cc4916d31f6c8b94c26527262ddaa47cb266f3a3c4d9b973aba673ebd88605c7519e3a9635f8a97fb
+
+[~MFT]
+0=7|0work.mgf|2942|0
+1=1|1work.mgf|756|0
+3=1|3work.mgf|0|0
+
+[~U]
+operacioneslogicas=OperacionesLogicas 11|0*1355|
+paquete=3|0*0|0*120

@@ -1,0 +1,87 @@
+# Synopsys Constraint Checker, version maplat, Build 1796R, built Aug  4 2017
+# Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Sun May  5 01:05:03 2019
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "controlDisplays"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                  Ending                                    |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+controlDisplays|clk                       controlDisplays|clk                       |     1000.000         |     No paths         |     No paths         |     No paths                         
+controlDisplays|clk_aux_derived_clock     controlDisplays|clk_aux_derived_clock     |     1000.000         |     No paths         |     No paths         |     No paths                         
+===============================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:catodo[0]
+p:catodo[1]
+p:catodo[2]
+p:catodo[3]
+p:centenas[0]
+p:centenas[1]
+p:centenas[2]
+p:centenas[3]
+p:clr
+p:decenas[0]
+p:decenas[1]
+p:decenas[2]
+p:decenas[3]
+p:salidaDisplay[0]
+p:salidaDisplay[1]
+p:salidaDisplay[2]
+p:salidaDisplay[3]
+p:salidaDisplay[4]
+p:salidaDisplay[5]
+p:salidaDisplay[6]
+p:unidades[0]
+p:unidades[1]
+p:unidades[2]
+p:unidades[3]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

@@ -1,0 +1,4 @@
+MESSAGE "File: A:\Documentos\Aruitectura Pasti\Shifters.vhd" 
+MESSAGE "Compile Entity "Shifters"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "Shifters"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]" 

@@ -1,0 +1,69 @@
+#Start recording tcl command: 4/14/2019 00:24:52
+#Project Location: A:/Documentos/Aruitectura Pasti; Project name: P1
+prj_project open "A:/Documentos/Aruitectura Pasti/P1.ldf"
+prj_run Export -impl P1 -task Jedecgen
+pgr_project save "A:/Documentos/Aruitectura Pasti/P1/P1.xcf"
+prj_src add -exclude "A:/Documentos/Aruitectura Pasti/P1/P1.xcf"
+prj_src enable "A:/Documentos/Aruitectura Pasti/P1/P1.xcf"
+pgr_program run
+pgr_program run
+prj_run Export -impl P1 -task Jedecgen
+pgr_project save "A:/Documentos/Aruitectura Pasti/P1/P1.xcf"
+pgr_project close
+pgr_project open "A:/Documentos/Aruitectura Pasti/P1/P1.xcf"
+pgr_program run
+prj_run Export -impl P1
+pgr_project close
+prj_run Export -impl P1
+pgr_project open "A:/Documentos/Aruitectura Pasti/P1/P1.xcf"
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_project save "A:/Documentos/Aruitectura Pasti/P1/P1.xcf"
+pgr_project close
+pgr_project open "A:/Documentos/Aruitectura Pasti/P1/P1.xcf"
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_program set -port FTUSB-0
+pgr_program run
+pgr_program set -port FTUSB-1
+pgr_program run
+prj_src remove "A:/Documentos/Aruitectura Pasti/simulacion/simulacion.spf"
+prj_run Synthesis -impl P1 -task Synplify_Synthesis
+prj_src add "A:/Documentos/Aruitectura Pasti/simulacion/simulacion.spf"
+pgr_project close
+prj_run Export -impl P1 -task Jedecgen
+prj_run Export -impl P1 -task Jedecgen
+pgr_project open "A:/Documentos/Aruitectura Pasti/P1/P1.xcf"
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_program set -port FTUSB-0
+pgr_program run
+pgr_program set -port FTUSB-1
+pgr_program run
+prj_run Map -impl P1 -task MapTrace
+prj_run Export -impl P1
+pgr_project save "A:/Documentos/Aruitectura Pasti/P1/P1.xcf"
+pgr_project close
+pgr_project open "A:/Documentos/Aruitectura Pasti/P1/P1.xcf"
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_program run
+prj_run Synthesis -impl P1
+prj_run Export -impl P1 -task Jedecgen
+prj_run Export -impl P1 -task Jedecgen
+pgr_project save "A:/Documentos/Aruitectura Pasti/P1/P1.xcf"
+pgr_project close
+pgr_project open "A:/Documentos/Aruitectura Pasti/P1/P1.xcf"
+pgr_program run
+pgr_program run
+pgr_project close
+prj_src add "A:/Documentos/Aruitectura Pasti/Shifters.vhd"
+prj_src add "A:/Documentos/Aruitectura Pasti/shifterSim/shifterSim.spf"
+#Stop recording: 4/14/2019 04:07:05

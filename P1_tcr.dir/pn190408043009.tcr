@@ -1,0 +1,14 @@
+#Start recording tcl command: 4/8/2019 03:42:00
+#Project Location: A:/Documentos/Aruitectura Pasti; Project name: P1
+prj_project new -name "P1" -impl "P1" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "A:/Documentos/Aruitectura Pasti/OperacionesLogicas.vhd"
+prj_src add "A:/Documentos/Aruitectura Pasti/paquete.vhd"
+prj_run Synthesis -impl P1
+prj_run Synthesis -impl P1
+prj_run Synthesis -impl P1
+prj_run Synthesis -impl P1
+prj_run Export -impl P1 -task Jedecgen
+prj_src add "A:/Documentos/Aruitectura Pasti/simulacion/simulacion.spf"
+prj_src add "A:/Documentos/Aruitectura Pasti/simulacion/simulacion.spf"
+#Stop recording: 4/8/2019 04:30:09

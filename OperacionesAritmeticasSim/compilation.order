@@ -1,0 +1,6 @@
+.\..\paquete.vhd
+.\..\OperacionesLogicas.vhd
+.\..\Shifters.vhd
+.\..\Selector.vhd
+.\..\OperacionesAritmeticas.vhd
+.\..\Main.vhd

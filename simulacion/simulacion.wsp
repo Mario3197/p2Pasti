@@ -1,0 +1,26 @@
+[COMPILESTATUS|.\..\paquete.vhd]
+FileTimeLow=30731754
+Status=Compiled
+
+[COMPILESTATUS|.\..\OperacionesLogicas.vhd]
+FileTimeLow=30732946
+Status=Compiled
+
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|.\..\OperacionesLogicas.vhd|]
+CurrentLine=9
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAADAAAA/////////////////////50BAABfAAAAgAcAAEkDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+
+[CACHEDOC|Aldec.Project.Generic.7|.\simulacion.adf|]
+Path=/OperacionesLogicas
+
+[General]
+CurrentVersion=103
+
+[Gui config]
+RunFor=10 ns
+

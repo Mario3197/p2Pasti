@@ -1,0 +1,71 @@
+timestamp=1555308090123
+
+[~A]
+ModifyID=5
+Version=74
+
+[operacionesaritmeticas]
+A/behavioral=A/Behavioral 21|./../../OperacionesAritmeticas.vhd|14|1*4131
+BinI32/behavioral=3*2361
+I=0*7568
+I/behavioral=I/Behavioral 0*8403
+M=11|0|vd0|1555308090074|./../../OperacionesAritmeticas.vhd|0*7069*0x7514be9e534169c4e18de3133a0f0a3f4387df55|0*7458*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|0|vd0|1555308090076|./../../OperacionesAritmeticas.vhd|0*7865*0x8ca956e81fb8c7a8cbd1f6d17d49dd800a04f304|0*8279*0x9065d32a2e40e13794b29a2731812845
+R=./../../OperacionesAritmeticas.vhd|5
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|9f479fd7b3f66d186be2dba603d1b4655f469610826d4e290dcbf1f56e064e79e9ce07b2608bbaf39cfaa935b096767c
+Version/behavioral=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff48fb159578879d1a351c51f48ad73a184
+
+[operacioneslogicas]
+A/behavioral=A/Behavioral 21|./../../OperacionesLogicas.vhd|14|1*843
+BinI32/behavioral=3*0
+I=0*2310
+I/behavioral=I/Behavioral 0*3147
+M=11|0|vd0|1555308089412|./../../OperacionesLogicas.vhd|0*1835*0x53d7551db36aa1d200d9cb87bd84dbfe3e131561|0*2208*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|0|vd0|1555308089414|./../../OperacionesLogicas.vhd|0*2603*0x5effdaf495b32b126c74b712acb931cd6da404f2|0*3031*0x9065d32a2e40e13794b29a2731812845
+R=./../../OperacionesLogicas.vhd|5
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|e2df1698ef0cec1d7b740fd92e03fe34421cda879894a9ac5530dd8aceb80ab4533bbd8b6fed7f22c3e891c51fae76b9
+Version/behavioral=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4f57d5b4a1a24c8998ba23c16f9c83247
+
+[paquete]
+E=1*0
+I=0*977
+I/paquete=0*1390
+M=3|0|vd0|1555308089154|./../../paquete.vhd|0*299*0xc79f0acf28d16fee78a3b12bcb109d3948af9e3c|0*897*0x23b75c12e3e89f2ef000564498faa8c2
+M/paquete=4|0|vd0|1555308089157|./../../paquete.vhd|0*1176*0x7e815a88aa9ef4a3b5ee31ecfcf2d94ff3a38ed6|0*1300*0x9065d32a2e40e13794b29a2731812845
+R=./../../paquete.vhd|4
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|97e228c571ae2a2cc4916d31f6c8b94c26527262ddaa47cb266f3a3c4d9b973a8aa89d226d5fba45846911455b2a3c2b
+Version/paquete=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|97e228c571ae2a2cc4916d31f6c8b94c26527262ddaa47cb266f3a3c4d9b973a8aa89d226d5fba45846911455b2a3c2b
+
+[selector]
+A/behavioral=A/Behavioral 21|./../../Selector.vhd|13|1*2986
+BinI32/behavioral=3*1690
+I=0*5732
+I/behavioral=I/Behavioral 0*6525
+M=11|0|vd0|1555308089850|./../../Selector.vhd|0*5364*0x296a7bb488a4283a31db63f447d6838e672ddb38|0*5650*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|0|vd0|1555308089852|./../../Selector.vhd|0*6015*0xd2038c0a4007ead0aeffba64c421d963fffad322|0*6429*0x9065d32a2e40e13794b29a2731812845
+R=./../../Selector.vhd|5
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b86f9e88cc6bc7fd2220bff618bfdf1f6690495b6afe9e9f4ff25615aba759db27e3c7d2ebba9fa2e25aa7071a43e4dc
+Version/behavioral=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff40df01215971b1f84792d122a1aa389e7
+
+[shifters]
+A/behavioral=A/Behavioral 21|./../../Shifters.vhd|14|1*1894
+BinI32/behavioral=3*1026
+I=0*4078
+I/behavioral=I/Behavioral 0*4860
+M=11|0|vd0|1555308089632|./../../Shifters.vhd|0*3667*0x39e5830704e065202c45e665354510585e5bc815|0*3996*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|0|vd0|1555308089634|./../../Shifters.vhd|0*4361*0x6f1650b506d39a8dc3b2a85c4cf67f3a49368997|0*4764*0x9065d32a2e40e13794b29a2731812845
+R=./../../Shifters.vhd|5
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|bb336944b5f272381f2e643e55af8c17e55e66d01b071ebe901f39dda14a0486d2bc0b90be83e4b7cb1b5a85fcd4b277
+Version/behavioral=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff406d8a375fd420aa14f3dc8f48eb0dce9
+
+[~MFT]
+0=7|0work.mgf|8403|0
+1=1|1work.mgf|4131|0
+3=1|3work.mgf|2361|0
+
+[~U]
+operacionesaritmeticas=OperacionesAritmeticas 11|0*6819|
+operacioneslogicas=OperacionesLogicas 11|0*1597|
+paquete=3|0*0|0*120
+selector=Selector 11|0*5154|
+shifters=Shifters 11|0*3451|

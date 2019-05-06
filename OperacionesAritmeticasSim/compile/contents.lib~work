@@ -1,0 +1,9 @@
+5
+~E 1 "./../../OperacionesAritmeticas.vhd" 5 OperacionesAritmeticas
+~A 1 "./../../OperacionesAritmeticas.vhd" 14 Behavioral
+~E 1 "./../../OperacionesLogicas.vhd" 5 OperacionesLogicas
+~A 1 "./../../OperacionesLogicas.vhd" 14 Behavioral
+~E 1 "./../../Selector.vhd" 5 Selector
+~A 1 "./../../Selector.vhd" 13 Behavioral
+~E 1 "./../../Shifters.vhd" 5 Shifters
+~A 1 "./../../Shifters.vhd" 14 Behavioral

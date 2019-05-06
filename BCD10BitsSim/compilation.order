@@ -1,0 +1,7 @@
+.\..\paquete.vhd
+.\..\OperacionesLogicas.vhd
+.\..\Shifters.vhd
+.\..\Selector.vhd
+.\..\OperacionesAritmeticas.vhd
+.\..\BCD10Bits.vhd
+.\..\Main.vhd
