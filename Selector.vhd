@@ -17,7 +17,7 @@ begin process (clk,clr,btn)
 		contador <=(others => '0');
 	elsif(clk'event and clk = '1') then 
 		if(btn = '1') then
-			if(contador = "1000") then
+			if(contador = "1001") then
 				contador <= (others => '0');
 			else
 				contador <= contador + 1;

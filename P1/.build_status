@@ -19,11 +19,11 @@
             <Task name="PARTrace" build_result="0" update_result="2" update_time="1555231013"/>
             <Task name="IOTiming" build_result="0" update_result="2" update_time="1555231015"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1557036306">
-            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1557036306"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1557128240">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1557128240"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="2" update_result="0" update_time="1557036294"/>
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1557128193"/>
             <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
             <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
@@ -34,7 +34,7 @@
         </Milestone>
         <Report name="P1_P1.bgn" last_build_time="1555231018" last_build_size="4216"/>
         <Report name="P1_P1.bit" last_build_time="1555230433" last_build_size="25597"/>
-        <Report name="P1_P1.edi" last_build_time="1557036304" last_build_size="54053"/>
+        <Report name="P1_P1.edi" last_build_time="1557128238" last_build_size="54055"/>
         <Report name="P1_P1.ior" last_build_time="1555231015" last_build_size="3216"/>
         <Report name="P1_P1.jed" last_build_time="1555231018" last_build_size="1465422"/>
         <Report name="P1_P1.ncd" last_build_time="1555231012" last_build_size="48177"/>

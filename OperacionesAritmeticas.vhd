@@ -1,6 +1,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.std_logic_unsigned.all;
+use ieee.numeric_std.all;
 
 entity OperacionesAritmeticas is --Programa que realiza las operaciones aritméticas de suma, resta y multiplicación
 	port(
@@ -21,6 +22,8 @@ begin process (clk,A,B)
 			salida <= "00" & (A - B);
 		elsif(selector = "1000") then
 			salida <= A(4 downto 0) * B(4 downto 0);
+		elsif(selector = "1001") then
+			salida <= "00000" & std_logic_vector(unsigned(A(4 downto 0))/unsigned(B(4 downto 0)));
 		end if;
 	end if;    
 end process;

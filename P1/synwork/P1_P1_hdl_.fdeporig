@@ -1,5 +1,5 @@
 #defaultlanguage:vhdl
-#OPTIONS:"|-top|controlDisplays|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|A:\\Documentos\\Aruitectura Pasti\\Practica 1\\P1\\syntmp\\hdlorder.tcl"
+#OPTIONS:"|-top|controlDisplays|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|A:\\Documentos\\Aruitectura Pasti\\p2Pasti\\P1\\syntmp\\hdlorder.tcl"
 #CUR:"A:\\Archivos de programa\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501906510
 #CUR:"A:\\Archivos de programa\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501929808
 #CUR:"A:\\Archivos de programa\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501905824
@@ -11,23 +11,23 @@
 #CUR:"A:\\Archivos de programa\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501905824
 #CUR:"A:\\Archivos de programa\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501905824
 #CUR:"A:\\Archivos de programa\\lscc\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493331104
-#CUR:"A:\\Documentos\\Aruitectura Pasti\\Practica 1\\OperacionesLogicas.vhd":1555304622
-#CUR:"A:\\Documentos\\Aruitectura Pasti\\Practica 1\\paquete.vhd":1555314617
-#CUR:"A:\\Documentos\\Aruitectura Pasti\\Practica 1\\Shifters.vhd":1555304609
-#CUR:"A:\\Documentos\\Aruitectura Pasti\\Practica 1\\Main.vhd":1555315616
-#CUR:"A:\\Documentos\\Aruitectura Pasti\\Practica 1\\Selector.vhd":1555304083
-#CUR:"A:\\Documentos\\Aruitectura Pasti\\Practica 1\\OperacionesAritmeticas.vhd":1555310705
-#CUR:"A:\\Documentos\\Aruitectura Pasti\\Practica 1\\BCD10Bits.vhd":1555312189
-#CUR:"A:\\Documentos\\Aruitectura Pasti\\Practica 1\\controlDisplays.vhd":1557036293
+#CUR:"A:\\Documentos\\Aruitectura Pasti\\p2Pasti\\OperacionesLogicas.vhd":1555304622
+#CUR:"A:\\Documentos\\Aruitectura Pasti\\p2Pasti\\paquete.vhd":1555314617
+#CUR:"A:\\Documentos\\Aruitectura Pasti\\p2Pasti\\Shifters.vhd":1555304609
+#CUR:"A:\\Documentos\\Aruitectura Pasti\\p2Pasti\\Main.vhd":1555315616
+#CUR:"A:\\Documentos\\Aruitectura Pasti\\p2Pasti\\Selector.vhd":1557126228
+#CUR:"A:\\Documentos\\Aruitectura Pasti\\p2Pasti\\OperacionesAritmeticas.vhd":1557128192
+#CUR:"A:\\Documentos\\Aruitectura Pasti\\p2Pasti\\BCD10Bits.vhd":1555312189
+#CUR:"A:\\Documentos\\Aruitectura Pasti\\p2Pasti\\controlDisplays.vhd":1557036293
 0 "A:\Archivos de programa\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
-1 "A:\Documentos\Aruitectura Pasti\Practica 1\OperacionesLogicas.vhd" vhdl
-2 "A:\Documentos\Aruitectura Pasti\Practica 1\paquete.vhd" vhdl
-3 "A:\Documentos\Aruitectura Pasti\Practica 1\Shifters.vhd" vhdl
-4 "A:\Documentos\Aruitectura Pasti\Practica 1\Main.vhd" vhdl
-5 "A:\Documentos\Aruitectura Pasti\Practica 1\Selector.vhd" vhdl
-6 "A:\Documentos\Aruitectura Pasti\Practica 1\OperacionesAritmeticas.vhd" vhdl
-7 "A:\Documentos\Aruitectura Pasti\Practica 1\BCD10Bits.vhd" vhdl
-8 "A:\Documentos\Aruitectura Pasti\Practica 1\controlDisplays.vhd" vhdl
+1 "A:\Documentos\Aruitectura Pasti\p2Pasti\OperacionesLogicas.vhd" vhdl
+2 "A:\Documentos\Aruitectura Pasti\p2Pasti\paquete.vhd" vhdl
+3 "A:\Documentos\Aruitectura Pasti\p2Pasti\Shifters.vhd" vhdl
+4 "A:\Documentos\Aruitectura Pasti\p2Pasti\Main.vhd" vhdl
+5 "A:\Documentos\Aruitectura Pasti\p2Pasti\Selector.vhd" vhdl
+6 "A:\Documentos\Aruitectura Pasti\p2Pasti\OperacionesAritmeticas.vhd" vhdl
+7 "A:\Documentos\Aruitectura Pasti\p2Pasti\BCD10Bits.vhd" vhdl
+8 "A:\Documentos\Aruitectura Pasti\p2Pasti\controlDisplays.vhd" vhdl
 
 # Dependency Lists (Uses list)
 0 -1

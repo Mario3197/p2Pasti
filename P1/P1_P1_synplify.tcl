@@ -44,20 +44,20 @@ set_option -resolve_multiple_driver 0
 
 #-- add_file options
 add_file -vhdl {A:/Archivos de programa/lscc/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd}
-add_file -vhdl -lib "work" {A:/Documentos/Aruitectura Pasti/Practica 1/OperacionesLogicas.vhd}
-add_file -vhdl -lib "work" {A:/Documentos/Aruitectura Pasti/Practica 1/paquete.vhd}
-add_file -vhdl -lib "work" {A:/Documentos/Aruitectura Pasti/Practica 1/Shifters.vhd}
-add_file -vhdl -lib "work" {A:/Documentos/Aruitectura Pasti/Practica 1/Main.vhd}
-add_file -vhdl -lib "work" {A:/Documentos/Aruitectura Pasti/Practica 1/Selector.vhd}
-add_file -vhdl -lib "work" {A:/Documentos/Aruitectura Pasti/Practica 1/OperacionesAritmeticas.vhd}
-add_file -vhdl -lib "work" {A:/Documentos/Aruitectura Pasti/Practica 1/BCD10Bits.vhd}
-add_file -vhdl -lib "work" {A:/Documentos/Aruitectura Pasti/Practica 1/controlDisplays.vhd}
+add_file -vhdl -lib "work" {A:/Documentos/Aruitectura Pasti/p2Pasti/OperacionesLogicas.vhd}
+add_file -vhdl -lib "work" {A:/Documentos/Aruitectura Pasti/p2Pasti/paquete.vhd}
+add_file -vhdl -lib "work" {A:/Documentos/Aruitectura Pasti/p2Pasti/Shifters.vhd}
+add_file -vhdl -lib "work" {A:/Documentos/Aruitectura Pasti/p2Pasti/Main.vhd}
+add_file -vhdl -lib "work" {A:/Documentos/Aruitectura Pasti/p2Pasti/Selector.vhd}
+add_file -vhdl -lib "work" {A:/Documentos/Aruitectura Pasti/p2Pasti/OperacionesAritmeticas.vhd}
+add_file -vhdl -lib "work" {A:/Documentos/Aruitectura Pasti/p2Pasti/BCD10Bits.vhd}
+add_file -vhdl -lib "work" {A:/Documentos/Aruitectura Pasti/p2Pasti/controlDisplays.vhd}
 
 #-- top module name
 set_option -top_module controlDisplays
 
 #-- set result format/file last
-project -result_file {A:/Documentos/Aruitectura Pasti/Practica 1/P1/P1_P1.edi}
+project -result_file {A:/Documentos/Aruitectura Pasti/p2Pasti/P1/P1_P1.edi}
 
 #-- error message log file
 project -log_file {P1_P1.srf}

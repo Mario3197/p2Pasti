@@ -1,0 +1,4 @@
+MESSAGE "File: A:\Documentos\Aruitectura Pasti\p2Pasti\OperacionesAritmeticas.vhd" 
+MESSAGE "Compile Entity "OperacionesAritmeticas"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "OperacionesAritmeticas"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]" 

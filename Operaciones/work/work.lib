@@ -1,0 +1,24 @@
+timestamp=1557130427713
+
+[~A]
+ModifyID=1
+Version=74
+
+[operacionesaritmeticas]
+A/behavioral=A/Behavioral 21|./../../OperacionesAritmeticas.vhd|15|1*0
+BinI32/behavioral=3*0
+I=0*775
+I/behavioral=I/Behavioral 0*1755
+M=11|0|vd0|1557130427661|./../../OperacionesAritmeticas.vhd|0*250*0x81e28ed2a67dc3cd5e33a09176d7ca6de1eb9719|0*665*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|0|vd0|1557130427663|./../../OperacionesAritmeticas.vhd|0*1105*0x9649f59476682fc65f6c534d6db4fcd265e0939b|0*1631*0x9065d32a2e40e13794b29a2731812845
+R=./../../OperacionesAritmeticas.vhd|6
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|9f479fd7b3f66d186be2dba603d1b4655f469610826d4e290dcbf1f56e064e79d0bdf4912e9afed965a23ef3265b243e
+Version/behavioral=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4f4b4fd4aa4399215eb05b3bf1ec77c69
+
+[~MFT]
+0=7|0work.mgf|1755|0
+1=1|1work.mgf|0|0
+3=1|3work.mgf|0|0
+
+[~U]
+operacionesaritmeticas=OperacionesAritmeticas 11|0*0|

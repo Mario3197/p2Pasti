@@ -1,0 +1,26 @@
+[COMPILESTATUS|.\..\OperacionesLogicas.vhd]
+FileTimeLow=30733128
+Status=Compiled
+
+[CACHEDOC|Aldec.Project.Generic.7|.\Operaciones.adf|]
+Path=/OperacionesAritmeticas
+
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|.\..\OperacionesLogicas.vhd|]
+CurrentLine=7
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo=LAAAAAAAAAADAAAA/////////////////////18BAAB6AAAAgAcAAEkDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA=
+
+[Gui config]
+RunFor=1 ns
+
+[General]
+CurrentVersion=103
+
+[COMPILESTATUS|.\..\OperacionesAritmeticas.vhd]
+FileTimeLow=30737379
+Status=Compiled
+
