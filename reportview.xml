@@ -3,7 +3,7 @@
 <ReportView version="2.0">
     <Implement name="P1">
         <ToolReport id="tooldec" path="" status="0"/>
-        <ToolReport id="toolhle_genhierarchy" path="A:/Documentos/Aruitectura Pasti/Practica 1/P1/hdla_gen_hierarchy.html" status="1"/>
+        <ToolReport id="toolhle_genhierarchy" path="C:/Users/Mario/Desktop/p2Pasti/P1/hdla_gen_hierarchy.html" status="1"/>
         <ToolReport id="toolpio" path="" status="2"/>
         <ToolReport id="toolsso" path="" status="2"/>
     </Implement>

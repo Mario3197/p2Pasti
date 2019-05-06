@@ -2,7 +2,7 @@
 <BaliProject version="3.2" title="P1" device="LCMXO2-7000HE-5TG144C" default_implementation="P1">
     <Options/>
     <Implementation title="P1" dir="P1" description="P1" synthesis="synplify" default_strategy="Strategy1">
-        <Options def_top="OperacionesAritmeticas" top="controlDisplays"/>
+        <Options top="controlDisplays"/>
         <Source name="OperacionesLogicas.vhd" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>
@@ -30,10 +30,16 @@
         <Source name="controlDisplays/controlDisplays.spf" type="Simulation Project File" type_short="SPF">
             <Options/>
         </Source>
+        <Source name="Operaciones/Operaciones.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
         <Source name="P1.lpf" type="Logic Preference" type_short="LPF">
             <Options/>
         </Source>
         <Source name="P1/P1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="shifters/shifters.spf" type="Simulation Project File" type_short="SPF">
             <Options/>
         </Source>
     </Implementation>

@@ -19,8 +19,8 @@ signal control: std_logic_vector(3 downto 0);
 signal cen,uni,dec: std_logic_vector(3 downto 0);-- Variable auxiliar para almacenar el valor de las unidades y las decenas de un número en BCD
 signal var10Bits: std_logic_vector(9 downto 0);
 begin 
-	opLogicas: OperacionesLogicas port map (clk, A, B, control, leds);
 	selec: Selector port map (clk, clr, operacion, control);
+	opLogicas: OperacionesLogicas port map (clk, A, B, control, leds);
 	shift: Shifters port map (clk, clr, A, control, leds);
 	BCD: BCD10Bits port map(var10Bits,uni, dec, cen);--Convierte un número de 5 bits a un valor en BCD
 	multiplexado_Displays: controlDisplays port map(clk,clr,uni,dec,cen,catodo,display);--Manda las unidades del número a la salida 
